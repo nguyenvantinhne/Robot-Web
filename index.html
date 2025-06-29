@@ -99,7 +99,7 @@
     // Fetch dữ liệu
     async function fetchData() {
       try {
-        const res = await fetch("http://157.10.52.7:4000/api/sunwin?key=tinh592007pq");
+        const res = await fetch("https://https-api.onrender.com/api/sunwin");
         const data = await res.json();
 
         const phien = data.phien_hien_tai || "...";
